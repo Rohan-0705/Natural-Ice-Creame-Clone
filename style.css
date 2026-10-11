@@ -1,0 +1,108 @@
+:root {
+    --greenColor: rgb(55, 198, 81);
+}
+
+.customFirstHeader {
+    color: white;
+    background-color: var(--greenColor)
+}
+
+.list-type ul {
+    list-style: none;
+}
+
+.customerFooter {
+    width: 100%;
+    background-color: #38383f;
+    color: white;
+    padding: 60px 10%;
+}
+
+.customerFooter a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+.customerFooter a:hover{
+    color: green;
+}
+.customerFooter p {
+    line-height: 2.2;
+    font-size: 18px;
+}
+.customerFooter h3 {
+    color: #aaa;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.btn,
+.phnNo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+.customerFooter .col{
+    border-right: 1px solid white;
+    padding-left: 60px;
+    padding-top: 14px;
+}
+
+.customNavbar {
+    background-color: #38383f;
+}
+
+.customNav {
+    justify-content: center;
+}
+
+.customNav .navbar-nav {
+    margin: 0 !important;
+    gap: 35px;
+}
+
+.customNav .nav-link {
+    color: white !important;
+    font-size: 16px;
+}
+
+.topNavbar {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.topNavbar .container-fluid {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.topNavbar form {
+    width: 570px;
+}
+
+.topNavbar form input {
+    height: 60px;
+    background-color: #e5e5e7;
+    border: none;
+    border-radius: 0;
+    padding: 15px 20px;
+}
+
+.topNavbar form button {
+    width: 55px;
+    height: 53px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.topNavbar form i {
+    font-size: 22px;
+}
+
+
+
